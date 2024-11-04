@@ -1,0 +1,19 @@
+2024-11-04 00:36:53,974 - INFO - ID Client1: New client registered
+2024-11-04 00:36:53,974 - INFO - ID Client1: New counter value of id Client1 is: 5.0
+2024-11-04 00:36:55,053 - ERROR - ID Client1: Invalid password
+2024-11-04 00:36:58,978 - INFO - ID Client1: New counter value of id Client1 is: 15.0
+2024-11-04 00:37:04,077 - INFO - ID Client1: New counter value of id Client1 is: 8.0
+2024-11-04 00:56:07,650 - INFO - Connected to ('192.168.178.61', 56167)
+2024-11-04 00:56:07,650 - INFO - ID Client1: New client registered
+2024-11-04 00:56:07,650 - INFO - ID Client1: New counter value of id Client1 is: 5.0
+2024-11-04 00:56:08,856 - INFO - Connected to ('192.168.178.61', 56168)
+2024-11-04 00:56:08,856 - ERROR - ID Client1: Invalid password
+2024-11-04 00:56:12,652 - INFO - ID Client1: New counter value of id Client1 is: 15.0
+2024-11-04 00:56:17,653 - INFO - ID Client1: New counter value of id Client1 is: 8.0
+2024-11-04 00:56:35,349 - INFO - Connected to ('192.168.178.61', 56174)
+2024-11-04 00:56:35,349 - ERROR - ID Client1: Client already registered
+2024-11-04 00:56:35,349 - INFO - ID Client1: New counter value of id Client1 is: 13.0
+2024-11-04 00:56:36,239 - INFO - Connected to ('192.168.178.61', 56175)
+2024-11-04 00:56:36,239 - ERROR - ID Client1: Invalid password
+2024-11-04 00:56:40,352 - INFO - ID Client1: New counter value of id Client1 is: 23.0
+2024-11-04 00:56:45,353 - INFO - ID Client1: New counter value of id Client1 is: 16.0

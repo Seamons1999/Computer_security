@@ -1,0 +1,16 @@
+{
+  "id": "Client1",
+  "password": "password123",
+  "server": {
+    "ip": "192.168.178.61",
+    "port": 9999
+  },
+  "actions": {
+    "delay": 5,
+    "steps": [
+      "INCREASE 5",
+      "INCREASE 10",
+      "DECREASE 7"
+    ]
+  }
+}
