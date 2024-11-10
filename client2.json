@@ -1,8 +1,8 @@
 {
-  "id": "Client1",
+  "id": "Client2",
   "password": "admin",
   "server": {
-    "ip": "192.168.178.61",
+    "ip": "192.168.178.160",
     "port": 9999
   },
   "actions": {

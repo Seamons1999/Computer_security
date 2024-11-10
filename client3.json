@@ -1,6 +1,6 @@
 {
-  "id": "Client1",
-  "password": "password123",
+  "id": "Client3",
+  "password": "Computer_security",
   "server": {
     "ip": "192.168.178.160",
     "port": 9999
@@ -9,8 +9,8 @@
     "delay": 5,
     "steps": [
       "INCREASE 5",
-      "INCREASE 10",
-      "DECREASE 7"
+      "INCREASE 1",
+      "DECREASE 2"
     ]
   }
 }

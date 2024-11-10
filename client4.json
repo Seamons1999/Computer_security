@@ -1,5 +1,5 @@
 {
-  "id": "Client1",
+  "id": "Client4",
   "password": "password123",
   "server": {
     "ip": "192.168.178.160",
@@ -9,8 +9,8 @@
     "delay": 5,
     "steps": [
       "INCREASE 5",
-      "INCREASE 10",
-      "DECREASE 7"
+      "DECREASE 11",
+      "INCREASE 7"
     ]
   }
 }
