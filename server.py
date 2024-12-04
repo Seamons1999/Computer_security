@@ -130,6 +130,11 @@ def handle_client(clients, client_socket, addr, max_conn_limiter, max_threads_pe
             logging.info(f'Connection to {addr} aborted due to false json file')
             return
 
+        # Lockout mechanism
+        if clients[client_id]['failed_logins'] >= 3:
+            logging.info(f'ID {client_id}: Too many failed logins. Access denied')
+            return
+
         # Use lock to prevent that execution is halted halfway the block
         with lock:
             if client_id not in active_clients:
@@ -148,6 +153,7 @@ def handle_client(clients, client_socket, addr, max_conn_limiter, max_threads_pe
                 # Send error to client and abort connection
                 response = {'status': 'error', 'message': 'Something went wrong, please try again'}
                 client_socket.send(json.dumps(response).encode('ascii'))
+                clients[client_id]['failed_logins'] += 1
                 return
 
             logging.info(f'ID {client_id} - Client already registered')
@@ -161,7 +167,8 @@ def handle_client(clients, client_socket, addr, max_conn_limiter, max_threads_pe
 
             # Register new client
             salt = bcrypt.gensalt()
-            clients[client_id] = {'password': hash_password(client_msg['password'], salt), 'counter': 0, 'salt': salt}
+            clients[client_id] = {'password': hash_password(client_msg['password'], salt), 'counter': 0, 'salt': salt,
+                                  'failed_logins': 0}
             logging.info(f'ID {client_id}: New client registered')
 
         for step in numeric_changes:
