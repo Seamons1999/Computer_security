@@ -1,6 +1,7 @@
 import json
 import socket
 import argparse
+import ssl
 
 def main():
     # Get commandline parameters
@@ -23,16 +24,19 @@ def main():
     steps = config['actions']['steps']
 
     # Establish connection to the server
+    ssl_context = ssl.create_default_context(ssl.Purpose.SERVER_AUTH)
+    ssl_context.load_verify_locations('certificate.pem')
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    client_socket.connect((server_ip, server_port))
+    client_ssl_socket = ssl_context.wrap_socket(client_socket, server_hostname='2425-KEN2560')
+    client_ssl_socket.connect((server_ip, server_port))
 
     # Send client registration data to server
-    client_message = client_socket.send(json.dumps(config).encode('ascii'))
-    server_answer = client_socket.recv(1024).decode('ascii')
+    client_message = client_ssl_socket.send(json.dumps(config).encode('ascii'))
+    server_answer = client_ssl_socket.recv(1024).decode('ascii')
 
     print(server_answer)
 
-    client_socket.close()
+    client_ssl_socket.close()
 
 
 if __name__ == '__main__':

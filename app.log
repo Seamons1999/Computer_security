@@ -397,3 +397,127 @@
 2024-11-10 22:36:06,321 - INFO - ID Client2: New counter value of id Client2 is: 18.0
 2024-11-10 22:36:08,541 - INFO - ID Client1: Account deleted because no active clients
 2024-11-10 22:36:11,321 - INFO - ID Client2: Account deleted because no active clients
+2024-12-04 12:36:43,189 - INFO - Connected to ('192.168.178.160', 52301)
+2024-12-04 12:36:43,189 - INFO - ID Client1: New client registered
+2024-12-04 12:36:54,908 - INFO - Connected to ('192.168.178.160', 52304)
+2024-12-04 12:36:55,098 - ERROR - ID Client1: Invalid password
+2024-12-04 12:39:42,469 - INFO - Connected to ('192.168.178.160', 52317)
+2024-12-04 12:39:42,469 - INFO - ID Client1: New client registered
+2024-12-04 12:39:43,216 - INFO - Connected to ('192.168.178.160', 52318)
+2024-12-04 12:39:45,348 - INFO - Connected to ('192.168.178.160', 52319)
+2024-12-04 12:39:45,348 - INFO - ID Client1 already has 2 active connections.
+2024-12-04 12:39:47,166 - INFO - Connected to ('192.168.178.160', 52320)
+2024-12-04 12:39:47,166 - INFO - ID Client1 already has 2 active connections.
+2024-12-04 12:39:48,319 - INFO - Connected to ('192.168.178.160', 52321)
+2024-12-04 12:39:48,319 - INFO - ID Client1 already has 2 active connections.
+2024-12-04 12:39:49,373 - INFO - Connected to ('192.168.178.160', 52322)
+2024-12-04 12:39:49,373 - INFO - ID Client1 already has 2 active connections.
+2024-12-04 12:39:50,458 - INFO - Connected to ('192.168.178.160', 52323)
+2024-12-04 12:39:50,458 - INFO - ID Client1 already has 2 active connections.
+2024-12-04 12:39:51,625 - INFO - Connected to ('192.168.178.160', 52324)
+2024-12-04 12:39:51,625 - INFO - ID Client1 already has 2 active connections.
+2024-12-04 12:39:52,428 - INFO - Connected to ('192.168.178.160', 52325)
+2024-12-04 12:39:52,428 - INFO - ID Client1 already has 2 active connections.
+2024-12-04 12:40:44,655 - INFO - Connected to ('192.168.178.160', 52327)
+2024-12-04 12:40:44,655 - INFO - ID Client1 already has 2 active connections.
+2024-12-04 12:40:45,366 - INFO - Connected to ('192.168.178.160', 52328)
+2024-12-04 12:40:45,366 - INFO - ID Client1 already has 2 active connections.
+2024-12-04 12:40:46,341 - INFO - Connected to ('192.168.178.160', 52329)
+2024-12-04 12:40:46,341 - INFO - ID Client1 already has 2 active connections.
+2024-12-04 12:41:04,233 - INFO - Connected to ('192.168.178.160', 52330)
+2024-12-04 12:41:04,233 - INFO - ID Client2: New client registered
+2024-12-04 12:41:06,073 - INFO - Connected to ('192.168.178.160', 52331)
+2024-12-04 12:41:07,621 - INFO - Connected to ('192.168.178.160', 52332)
+2024-12-04 12:41:07,621 - INFO - ID Client2 already has 2 active connections.
+2024-12-04 12:45:16,901 - INFO - Connected to ('192.168.178.160', 52346)
+2024-12-04 12:45:16,901 - INFO - ID Client1: New client registered
+2024-12-04 12:45:17,579 - INFO - Connected to ('192.168.178.160', 52347)
+2024-12-04 12:45:17,955 - INFO - ID Client1: Client already registered
+2024-12-04 12:45:17,955 - INFO - ID Client1: New counter value of id Client1 is: 5.0
+2024-12-04 12:45:20,709 - INFO - Connected to ('192.168.178.160', 52348)
+2024-12-04 12:45:20,709 - INFO - ID Client1 already has 2 active connections.
+2024-12-04 12:45:22,967 - INFO - ID Client1: New counter value of id Client1 is: 15.0
+2024-12-04 12:45:27,968 - INFO - ID Client1: New counter value of id Client1 is: 8.0
+2024-12-04 12:50:15,899 - INFO - Connected to ('192.168.178.160', 52402)
+2024-12-04 12:50:15,899 - INFO - ID Client1: New client registered
+2024-12-04 12:50:16,106 - INFO - ID Client1: New counter value of id Client1 is: 5.0
+2024-12-04 12:50:16,515 - INFO - Connected to ('192.168.178.160', 52403)
+2024-12-04 12:50:16,892 - INFO - ID Client1: Client already registered
+2024-12-04 12:50:16,892 - INFO - ID Client1: New counter value of id Client1 is: 10.0
+2024-12-04 12:50:17,746 - INFO - Connected to ('192.168.178.160', 52405)
+2024-12-04 12:50:17,746 - INFO - ID Client1 already has 2 active connections.
+2024-12-04 12:50:21,107 - INFO - ID Client1: New counter value of id Client1 is: 20.0
+2024-12-04 12:50:21,898 - INFO - ID Client1: New counter value of id Client1 is: 30.0
+2024-12-04 12:50:26,108 - INFO - ID Client1: New counter value of id Client1 is: 23.0
+2024-12-04 12:50:26,899 - INFO - ID Client1: New counter value of id Client1 is: 16.0
+2024-12-04 12:50:31,901 - INFO - ID Client1: Account deleted because no active clients
+2024-12-04 16:33:05,839 - INFO - Server starting
+2024-12-04 16:33:11,401 - INFO - Connected to ('192.168.178.160', 55207)
+2024-12-04 16:34:59,631 - INFO - Server starting
+2024-12-04 16:35:03,037 - INFO - Connected to ('192.168.178.160', 55219)
+2024-12-04 16:35:03,040 - INFO - ID Client1- Connection from ('192.168.178.160', 55219)
+2024-12-04 16:35:43,125 - INFO - Server starting
+2024-12-04 16:35:45,645 - INFO - Connected to ('192.168.178.160', 55220)
+2024-12-04 16:35:45,645 - INFO - ID Client1- Connection from ('192.168.178.160', 55220)
+2024-12-04 16:36:49,934 - INFO - Server starting
+2024-12-04 16:36:52,358 - INFO - Connected to ('192.168.178.160', 55227)
+2024-12-04 16:36:52,358 - INFO - ID Client1- Connection from ('192.168.178.160', 55227)
+2024-12-04 16:36:52,734 - INFO - ID Client1: New client registered
+2024-12-04 16:37:07,741 - INFO - ID Client1: Account deleted because no active clients
+2024-12-04 20:23:46,941 - INFO - Server starting
+2024-12-04 20:34:57,591 - INFO - Connected to ('192.168.178.160', 58113)
+2024-12-04 20:34:57,607 - INFO - ID Client1- Connection from ('192.168.178.160', 58113)
+2024-12-04 20:34:58,242 - INFO - ID Client1: New client registered
+2024-12-04 20:35:13,247 - INFO - ID Client1: Account deleted because no active clients
+2024-12-04 20:37:31,140 - INFO - Server starting
+2024-12-04 20:37:35,087 - INFO - Connected to ('192.168.178.160', 58119)
+2024-12-04 20:37:35,088 - INFO - ID Client1- Connection from ('192.168.178.160', 58119)
+2024-12-04 20:37:35,452 - INFO - ID Client1: New client registered
+2024-12-04 20:37:35,452 - INFO - ID Client1 - Counter value updated to 5.0
+2024-12-04 20:37:40,463 - INFO - ID Client1 - Counter value updated to 15.0
+2024-12-04 20:37:45,464 - INFO - ID Client1 - Counter value updated to 8.0
+2024-12-04 20:37:50,465 - INFO - ID Client1: Account deleted because no active clients
+2024-12-04 20:39:01,425 - INFO - Connected to ('192.168.178.160', 58123)
+2024-12-04 20:39:01,425 - INFO - ID Client1- Connection from ('192.168.178.160', 58123)
+2024-12-04 20:39:02,065 - INFO - ID Client1: New client registered
+2024-12-04 20:39:02,065 - INFO - ID Client1 - Counter value updated to 5.0
+2024-12-04 20:39:04,390 - INFO - Connected to ('192.168.178.160', 58124)
+2024-12-04 20:39:04,392 - INFO - ID Client1- Connection from ('192.168.178.160', 58124)
+2024-12-04 20:39:05,019 - INFO - ID Client1 - Client already registered
+2024-12-04 20:39:05,019 - INFO - ID Client1 - Counter value updated to 10.0
+2024-12-04 20:39:06,387 - INFO - Connected to ('192.168.178.160', 58125)
+2024-12-04 20:39:06,387 - INFO - ID Client1- Connection from ('192.168.178.160', 58125)
+2024-12-04 20:39:06,387 - INFO - ID Client1 already has 2 active connections.
+2024-12-04 20:39:07,071 - INFO - ID Client1 - Counter value updated to 20.0
+2024-12-04 20:39:08,457 - INFO - Connected to ('192.168.178.160', 58126)
+2024-12-04 20:39:08,466 - INFO - ID Client2- Connection from ('192.168.178.160', 58126)
+2024-12-04 20:39:09,085 - INFO - ID Client2: New client registered
+2024-12-04 20:39:09,085 - INFO - ID Client2 - Counter value updated to 3.0
+2024-12-04 20:39:10,034 - INFO - ID Client1 - Counter value updated to 30.0
+2024-12-04 20:39:12,072 - INFO - ID Client1 - Counter value updated to 23.0
+2024-12-04 20:39:14,098 - INFO - ID Client2 - Counter value updated to 11.0
+2024-12-04 20:39:15,035 - INFO - ID Client1 - Counter value updated to 16.0
+2024-12-04 20:39:19,099 - INFO - ID Client2 - Counter value updated to 6.0
+2024-12-04 20:39:20,036 - INFO - ID Client1: Account deleted because no active clients
+2024-12-04 20:39:24,101 - INFO - ID Client2: Account deleted because no active clients
+2024-12-04 20:58:01,747 - INFO - Server starting
+2024-12-04 20:58:12,512 - INFO - Connected to ('192.168.178.160', 58264)
+2024-12-04 20:58:12,512 - INFO - ID Client1- Connection from ('192.168.178.160', 58264)
+2024-12-04 20:58:12,702 - INFO - ID Client1: New client registered
+2024-12-04 20:58:12,702 - INFO - ID Client1 - Counter value updated to 5.0
+2024-12-04 20:58:17,498 - INFO - Connected to ('192.168.178.160', 58268)
+2024-12-04 20:58:17,498 - INFO - ID Client5- Connection from ('192.168.178.160', 58268)
+2024-12-04 20:58:17,703 - INFO - ID Client1 - Counter value updated to 15.0
+2024-12-04 20:58:22,704 - INFO - ID Client1 - Counter value updated to 8.0
+2024-12-04 20:58:27,705 - INFO - ID Client1: Account deleted because no active clients
+2024-12-04 20:59:00,774 - INFO - Server starting
+2024-12-04 20:59:04,348 - INFO - Connected to ('192.168.178.160', 58270)
+2024-12-04 20:59:04,348 - INFO - ID Client1- Connection from ('192.168.178.160', 58270)
+2024-12-04 20:59:04,530 - INFO - ID Client1: New client registered
+2024-12-04 20:59:04,530 - INFO - ID Client1 - Counter value updated to 5.0
+2024-12-04 20:59:07,280 - INFO - Connected to ('192.168.178.160', 58271)
+2024-12-04 20:59:07,286 - INFO - ID Client5- Connection from ('192.168.178.160', 58271)
+2024-12-04 20:59:07,286 - ERROR - ID Client5 - Not registered due to weak password password
+2024-12-04 20:59:09,539 - INFO - ID Client1 - Counter value updated to 15.0
+2024-12-04 20:59:14,540 - INFO - ID Client1 - Counter value updated to 8.0
+2024-12-04 20:59:19,541 - INFO - ID Client1: Account deleted because no active clients

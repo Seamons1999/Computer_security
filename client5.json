@@ -1,6 +1,6 @@
 {
   "id": "Client5",
-  "password": "test1!",
+  "password": "admin",
   "server": {
     "ip": "192.168.178.160",
     "port": 9999
