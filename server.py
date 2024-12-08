@@ -130,11 +130,6 @@ def handle_client(clients, client_socket, addr, max_conn_limiter, max_threads_pe
             logging.info(f'Connection to {addr} aborted due to false json file')
             return
 
-        # Lockout mechanism
-        if clients[client_id]['failed_logins'] >= 3:
-            logging.info(f'ID {client_id}: Too many failed logins. Access denied')
-            return
-
         # Use lock to prevent that execution is halted halfway the block
         with lock:
             if client_id not in active_clients:
@@ -147,6 +142,11 @@ def handle_client(clients, client_socket, addr, max_conn_limiter, max_threads_pe
 
         # Check if client is already registerd
         if client_id in clients:
+            # Lockout mechanism
+            if clients[client_id]['failed_logins'] >= 3:
+                logging.info(f'ID {client_id}: Too many failed logins. Access denied')
+                return
+
             if hash_password(client_msg['password'], clients[client_id]['salt']) != clients[client_id]['password']:
                 logging.error(f'ID {client_id}: Invalid password')
 
